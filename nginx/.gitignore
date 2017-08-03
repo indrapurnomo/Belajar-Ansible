@@ -1,0 +1,4 @@
+*/.vagrant
+*/.playbook.yml.retry
+*/.molecule
+*/.Gemfile.lock

@@ -47,10 +47,10 @@ More about `serverspec` testing can be found at [serverspec.org](http://serversp
 
 ## Implement v1
 hosts file need create manual, and make sure public key configured  
-`$ ansible-playbook nginx/playbook.yml -i nginx/hosts --private-key ~/.ssh/id_rsa --user ubuntu`
+`$ ansible-playbook nginx/playbook.yml -i nginx/hosts --private-key ~/.ssh/id_rsa --user debian`
 
 ## Implement v2
-`$ ansible-playbook nginx/playbook.yml -i nginx/environment/staging --private-key ~/.ssh/id_rsa --user ubuntu`
+`$ ansible-playbook nginx/playbook.yml -i nginx/environment/staging --private-key ~/.ssh/id_rsa --user debian`
 
 ## Documentations
 * https://github.com/metacloud/molecule
